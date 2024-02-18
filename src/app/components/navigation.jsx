@@ -2,13 +2,15 @@ import React from 'react'
 
 function Navigation() {
   return (
-    <nav>
-        <div className="left">
+    <nav className="flex flex-row items-center justify-around pt-1.5%">
+        {/* Left side of navigation */}
+        <div>
             <h1>Brainwave.io</h1>
         </div>
 
-        <div className="right">
-            <ul>
+        {/* right side of navigation */}
+        <div>
+            <ul className="flex justify-evenly items-center flex-row">
                 <li>Demos</li>
                 <li>Pages</li>
                 <li>Support</li>
