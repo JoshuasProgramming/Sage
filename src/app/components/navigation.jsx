@@ -11,15 +11,15 @@ function Navigation() {
         {/* right side of navigation */}
         <div>
             <ul className="flex justify-evenly items-center flex-row">
-                <li>Demos</li>
-                <li>Pages</li>
-                <li>Support</li>
-                <li>Contact</li>
-                <li>Sign In</li>
-                <a href="#">Sign Up</a>
+                <li className='pr-5%'>Demos</li>
+                <li className='pr-5%'>Pages</li>
+                <li className='pr-5%'>Support</li>
+                <li className='pr-5%'>Contact</li>
+                <li className='pr-5%' style={{whiteSpace: 'nowrap'}}>Sign In</li>
+                <a href="#"  style={{whiteSpace: 'nowrap'}}>Sign Up</a>
             </ul>
         </div>
-    </nav>
+    </nav>//
   )
 }
 
