@@ -13,6 +13,14 @@ module.exports = {
         '5%': '5%',
       },
 
+      fontFamily: {
+        'rubik': ['rubik', 'rubik'],
+      },
+
+      fontSize: {
+        '24': '24px',
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
